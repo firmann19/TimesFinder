@@ -1,12 +1,37 @@
-# React + Vite
+# 📰 TimeFiles Apps
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Single Page Application (SPA) to search and display articles from [The New York Times](https://nytimes.com), built using **React**, **TypeScript**, and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+## 📸 Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Wireframe](./public/wareframe.png)
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔍 Search articles by keyword using the NYTimes Article Search API
+- 📄 Display article title, author, publish date, and snippet
+- 🌐 Clickable articles open the full article on NYTimes.com in a new tab
+- 📱 Responsive UI (mobile-first)
+- 🔁 Loading & error states for better UX
+- 🧼 Clean and modular code structure
+
+---
+
+## 🧑‍💻 Tech Stack
+
+- **React + TypeScript** — frontend framework
+- **Tailwind CSS** — utility-first CSS styling
+- **Axios** — API fetching
+- **Vite** — fast dev server and build tool
+- **React Testing Library + Vitest** — (optional) functional testing
+- **Vercel** — (optional) deployment
+
+---
+
+## 🛠️ Getting Started
+
+### 1. Clone Repo
+
+```bash
+git clone https://github.com/firmann19/TimesFinder.git
+cd TimesFiles
